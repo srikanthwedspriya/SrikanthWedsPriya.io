@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>V&A Wedding</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <style>
+  @keyframes change {
+    0% {
+    	background-position: 0px 0px;
+/*     	    	background-size: 300% 300%; */
+
+    }
+    30% {
+/*     	background-position: -50px -100px; */
+/*     	    	background-size: 200% 200%; */
+
+    }
+    60% {
+/*     	background-position: -200px -308px; */
+/*     	    	    	background-size: 550% 550%; */
+
+    }
+    100% {
+    	background-position: 0px 1360px;
+/*     	    	background-size: 300% 300%; */
+
+    }
+}
+    @font-face {
+	  font-family: Roboto;
+	  src: url('css/fonts/Roboto-Regular.ttf');
+	  font-weight:900
+    }
+    @font-face {
+	  font-family: bannerFont;
+	  src: url('css/fonts/Brusher-Regular.ttf');
+	  font-weight:900
+	}
+    html, body {
+        height: 100%;
+        margin: 0px;
+	overflow:hidden;
+    }
+    #uname{
+    	text-transform:capitalize
+    }
+    body{
+    	text-align:center;
+    	background:url('images/rose.gif');
+    	font-family:bannerFont;
+    	background-size: cover;
+    	/*background-position: 0 1360px;
+    	animation: change 5s;*/
+    }
+    .container{
+    	height: 100%;
+    	margin-top:-20px;
+    	/* text-shadow: 0 0 10px #fff; */
+    	}
+    a{
+    font-size:28px
+    }
+	  *{
+  color:#fff !important;
+}
+h1 {margin-top:30%}
+p,a {
+    font-size: 25px;
+    font-family:'Roboto';
+    margin: 12% auto;
+}
+	  p{
+
+	      }
+a {
+    text-decoration: none;
+    background-color: #84020e;
+    border-radius: 6px;
+    padding: 5px 15px;
+    box-shadow: 0px 3px 20px #0006;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+    </style>
+    <meta property="og:image" content="https://vigneshwedsabarajitha.github.io/images/ad.png">
+          <div id='hidden' style='display:none;'><img src="images/ad.png"></div>
+</head>
+
+<body>
+<div class="container">
+<div class="Box">
+  <h1  class="animated fadeInUp delay-1s">Hi, <span id="uname">dsdsa</span></h1>
+<p class="animated fadeInUp delay-2s">We are celebrating our togetherness forever, Please join us!</p>
+ </div>
+<a  class="animated fadeInUp delay-3s" target="_self" href="https://vigneshwedsabarajitha.github.io">JOIN US</a>
+</div>
+    <script>
+    var uname =  window.location.href.split('/');
+	    var lastval = uname[uname.length-1];
+	    if( lastval === "friends"){
+	    	window.open("https://vigneshwedsabarajitha.github.io/friends.html",_self);
+	    }
+  document.getElementById("uname").innerHTML =
+  uname[uname.length-1];
+
+  document.title = "Hi, "+uname[uname.length-1];
+  </script>
+</body>
+</html>
