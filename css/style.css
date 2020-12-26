@@ -13,7 +13,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -1851,3 +1851,15 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+img.bribe_img{
+  border-radius:50%;
+  width:20%;
+  height:25%;
+  
+}
+#first_div {
+  /* background-image: url("../images/asas.png"); */
+  background-repeat: no-repeat;
+  /* background-size:cover; */
+  background-size: 100% 100%;
+}
