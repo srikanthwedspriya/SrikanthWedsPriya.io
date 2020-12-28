@@ -353,7 +353,16 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 100%;
 }
+#fh5co-header{
+  background-image:url(../images/Couple1.JPG);
+}
+
 @media screen and (max-width: 768px) {
+  #fh5co-header{
+    background-image:unset;
+    background-image:url(../images/Couple2.JPG);
+  }
+
   .fh5co-cover.fh5co-cover-sm .display-t,
   .fh5co-cover.fh5co-cover-sm .display-tc {
     height: 400px;
@@ -1855,10 +1864,16 @@ img.bribe_img{
   border-radius:50%;
   width:20%;
   height:25%;
-  
+
 }
 #first_div {
   /* background-image: url("../images/asas.png"); */
+  background-repeat: no-repeat;
+  /* background-size:cover; */
+  background-size: 100% 100%;
+}
+#fh5co-couple{
+  /* background-image: url("../images/Couple.JPG"); */
   background-repeat: no-repeat;
   /* background-size:cover; */
   background-size: 100% 100%;
