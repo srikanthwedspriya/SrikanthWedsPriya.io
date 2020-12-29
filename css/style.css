@@ -354,13 +354,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 #fh5co-header{
-  background-image:url(images/Couple1.jpg);
+  background-image:url(images/couple1.jpg);
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-header{
     background-image:unset;
-    background-image:url(images/Couple2.jpg);
+    background-image:url(images/couple2.jpg);
   }
 
   .fh5co-cover.fh5co-cover-sm .display-t,
